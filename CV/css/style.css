@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: orangered;
+    color: rgb(65, 63, 63);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    
+}
+
+img{
+    max-width: 10%;
+    border-radius: 10%;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Example styles for different sections */
+#personal-info p {
+    margin-bottom: 5px;
+}
+
+#work-experience ul li,
+#education ul li,
+#skills ul li {
+    margin-bottom: 5px;
+}
+
+#profile p {
+    font-style: italic;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
